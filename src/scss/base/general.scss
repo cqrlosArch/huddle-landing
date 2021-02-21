@@ -1,0 +1,31 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  background: url('../assets/images/bg-mobile.svg') no-repeat $bg;
+  background-size: 100%;
+  @include md {
+    background: url('../assets/images/bg-desktop.svg') no-repeat $bg;
+    background-size: cover;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  color: $textColor;
+  font-family: $open-sans;
+  padding: 1rem;
+
+  @include md {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+  }
+}

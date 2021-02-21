@@ -1,0 +1,41 @@
+.footer {
+  text-align: center;
+
+  .social-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    justify-content: center;
+    @include md {
+      justify-content: flex-end;
+    }
+    &__item {
+      margin-left: 1rem;
+    }
+    &__link {
+      text-decoration: none;
+    }
+    &__icon {
+      color: $textColor;
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-content: center;
+      border: 1px solid $textColor;
+      border-radius: 50%;
+
+      &:hover {
+        color: $hover;
+        border-color: $hover;
+      }
+    }
+  }
+  &__author {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+  &__link {
+    color: $link;
+  }
+}

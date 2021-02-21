@@ -1,0 +1,8 @@
+.header {
+  &__logo {
+    width: 120px;
+    @include md {
+      width: 160px;
+    }
+  }
+}
