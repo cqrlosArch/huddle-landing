@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://storybook-button-component.cqrlosarch.vercel.app/?path=/story/buttons-challenge-introduction--page">
+    <a href="https://huddle-landing-git-main-cqrlosarch.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/uaJbVYpN2dTeov9j9lsX">
+    <a href="https://www.frontendmentor.io/solutions/mobile-first-site-using-vanilla-js-and-sass-5i0q2Kl7P">
       Solution
     </a>
     <span> | </span>
@@ -65,7 +65,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/cqrlosArch/storybook-button-component
+$ git clone https://github.com/cqrlosArch/huddle-landing
 
 # Install dependencies
 $ npm install
